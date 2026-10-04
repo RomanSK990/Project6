@@ -1,7 +1,5 @@
 package part1_arraysyntax;
 
-import java.util.Arrays;
-
 public class Part1ArraySyntax {
     public static void main(String[] args) {
         // Part 1.1 Array creation

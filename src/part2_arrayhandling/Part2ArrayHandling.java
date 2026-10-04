@@ -1,7 +1,5 @@
 package part2_arrayhandling;
 
-import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Part2ArrayHandling {
@@ -63,7 +61,7 @@ public class Part2ArrayHandling {
             System.out.print(value + " ");
         }
     }
-    // Print 2.4 Sum of elements
+    // Part 2.4 Sum of elements
     public static int sumArray(int[] array) {
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
@@ -71,7 +69,7 @@ public class Part2ArrayHandling {
         }
         return sum;
     }
-    // Print 2.5 Largest value
+    // Part 2.5 Largest value
     public static int maxArrayInt(int[] array) {
         int max = array[0];
 
@@ -82,7 +80,7 @@ public class Part2ArrayHandling {
         }
         return max;
     }
-    // Print 2.6 Search value
+    // Part 2.6 Search value
     public static int searchArray(int[] array, int value) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == value) {
